@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,ol,span{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'Lima Bosonto Bijoy52';
+    src: url('../fonts/LimaBosontoBijoy52.woff') format('woff2'),
+        url('../fonts/LimaBosontoBijoy52.woff2') format('woff') ;
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* COMMON STYLE END */
+
+
+
+#hero__part {
+    background-image: url(../assets/background.jpg);
+    min-height:100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+#hero__part::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -1;
+}
+
+#hero__part h1{
+
+    font-family: 'Lima Bosonto Bijoy52';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    text-transform: capitalize;
+    line-height: 1.4em;
+    letter-spacing: -2px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 18px;
+    color: rgb(88, 255, 0);
+    padding-top: 50px;
+}
+
+#hero__part h2{
+    color: rgb(0, 152, 255);
+    font-family: 'CharukolaUltraLight', sans-serif;
+
+    font-size: 42px;
+    font-weight: 900;
+    text-shadow: rgb(0, 0, 0) 0px 0px 10px;
+    padding: 20px 20px;
+}
+button a{
+    color: rgb(255, 0, 0); 
+}
+button a:hover{
+    color: #fff;
+}
+.order__btn button{
+    font-family: 'Lima Bosonto Bijoy52';
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2.7px;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    fill: rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+    background-color: rgb(238, 191, 9);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 15px 30px;
+    margin-top: 45px;
+    transition: 0.5s;
+}
+.order__btn button:hover{
+    border-color: #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+.hero__bottom{
+    color: #fff !important;
+    font-weight: 600;
+    padding: 30px 0 50px !important;
+}
+.hero__bottom span{
+    color: #FF0606;
+}
+
+/* ===========================HERO PART END HERE======================= */
+
+.sec-row{
+    margin-top: 80px;
+}
+.sec__two-content h2{
+    font-family: 'Lima Bosonto Bijoy52';
+    color: rgb(86, 83, 98);
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    letter-spacing: -0.5px;
+}
+
+.list li span{
+    font-size:25px;
+    color: green;
+    padding-right: 10px;
+}
+
+.list li{
+font-size: 15px;
+color: #414850;
+font-family: 'CharukolaUltraLight', sans-serif;
+font-weight: 600;
+}
+
+
+/* ============================SECTION TWO END============================ */
+
+#section__three{
+    padding-top: 50px;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+}
+#section__three h1{
+ font-size: 35px;
+ font-weight:600;
+ color: #FF7A0B;
+}
+
+.youtube__video-two{
+    margin-top: 30px;
+}
+
+/* ==============================SECTION THREE END===================== */
+
+#customer__review{
+    padding: 30px;
+    background-color: #E0E0E0;
+    color: #51585F;
+}
+#customer__review h1{
+    font-size: 42px;
+    color: #000;
+    font-weight: 800;
+}
+.review__image-left img{
+    width:500px;
+    height: 500px;
+    border: 4px solid #5FB457;
+    margin-right: -100px;
+}
+.review__image-right img{
+    width:530px;
+    height: 180px;
+    border: 4px solid #5FB457;
+  
+}
+.gap{
+    margin-bottom:15px ;
+}
+.fifth-img-div img{
+    width: 530px;
+    height: 500px !important;
+    border: 4px solid #5FB457;
+}
+
+/* =================================   CUSTOMER REVIEW SECTION END =========================  */
+
+#faq{
+    padding: 50px;
+    background-color: #333;
+}
+#faq h2{
+    font-family: 'Lima Bosonto Bijoy52';
+    font-size: 35px;
+    font-weight: 800;
+    color: #ffff;
+}
+.ul-list{
+    padding-top: 40px;
+    padding-left:150px;
+}
+.ul-list span{
+    font-size: 30px;
+    color: #fddc5b;
+    padding-right: 10px;
+}
+.ul-list li{
+    font-size: 28px;
+    color: #ffff;
+    padding-bottom: 15px;
+    font-family: 'CharukolaUltraLight', sans-serif;
+}
+.ul-list .active{
+    padding-bottom: 0px;
+}
+
+
+/* ========================== FAQ SECTION END ===================== */
+
+#right{
+    padding:10px 0;
+    background-color: #726F6D;
+}
+#right a{
+    color: #000;
+    transition: 0.5s
+}
+#right a:hover{
+    color: blue;
+}
+
+/* ======================== RIGHT SECTION END ================== */
+
+.social__icon .phone span{
+    width: 53.83px;
+    height: 53.83px;
+    position: fixed;
+    bottom: 40px;
+    left: 30px;
+    background: #03E78B;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 999999999;
+    
+}
+
+.social__icon .messeenger span{
+    width: 53.83px;
+    height: 53.83px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background: #0A7CFF;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 999999999;
+}
+/* ==============SOCIAL ICON END=========== */
